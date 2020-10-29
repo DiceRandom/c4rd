@@ -17,8 +17,14 @@ html{
 
 
 a{
-    color: rgb(190, 190, 190);
+    color: gray;
     text-decoration: none;
+}
+
+a:hover{
+	
+	transition: all 0.2s ease;
+	    color: #88531e;
 }
 
 .header{
@@ -27,7 +33,7 @@ a{
 }
 
 .page{
-    background-color: black;
+    background-color: white;
     flex-direction: column;
     position: relative;
     padding-bottom: 0px;
@@ -81,6 +87,7 @@ a{
 
     
     overflow-x: hidden;
+	
 }
 
 .profile-image{
@@ -95,11 +102,18 @@ a{
 .links{
     display: grid;
     row-gap: 20%;
+	transition: all 0.1s ease;
     
 }
 
+
+.link:hover {
+    background-color: lightgray;
+}
+
+
 .link{
-    background-color: brown;
+    background-color: white;
     height: 1250%;
     width: 100%;
     max-height: 225px;
@@ -110,6 +124,8 @@ a{
     font-weight: 500;
     cursor: pointer;
     /* justify-content: center; */
+	box-shadow: -1px 1px 20px 13px lightgrey;
+	transition: all 0.2s ease;
 
 }
 
@@ -120,7 +136,7 @@ a{
     transform: translateX(-50%);
     font-size: 50pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: black;
 }
 
 .linkimage{
@@ -133,7 +149,7 @@ a{
 #site-title{
     margin-left: 6%;
     font-size: 200%;
-    color: white;
+    color: black;
     display: inline-block;
 }
 
@@ -144,7 +160,7 @@ a{
     position: relative;
     bottom: 0%;
     font-size: 100%;
-    color: white;
+    color: black;
     text-align: center;
     line-height: 20%;
 }
