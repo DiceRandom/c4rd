@@ -126,24 +126,30 @@ a:hover{
     /* justify-content: center; */
 	box-shadow: -1px 1px 20px 13px lightgrey;
 	transition: all 0.2s ease;
-
 }
+
+
+
+
 
 #name{
-    position: relative;  
+    position: relative;
+    display: inherit;
     /* left: 50%; */
-    top: 25%; 
-    transform: translateX(-50%);
-    font-size: 50pt;
+    top: 4vw;
+    /* transform: translate(-50%,36vh); */
+    font-size: 3vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
+    text-align: center;
 }
-
 .linkimage{
     max-width: 150px;
     display: inline-block;
     clip-path: circle(50% at 50% 50%);
     margin-left: 7%;
+	
+    min-height: 8vw;
 }
 
 #site-title{
@@ -156,11 +162,23 @@ a:hover{
 
 
 
+
+.footer:hover {
+    background-color: white;
+}
+
+
 .footer{
-    position: relative;
-    bottom: 0%;
-    font-size: 100%;
-    color: black;
+
+    display: block;
+    font-size: 1.5vw;
     text-align: center;
-    line-height: 20%;
+    background-color: white;
+    height: 1250%;
+    width: 100%;
+    cursor: default;
+    /* justify-content: center; */
+    
+	box-shadow: -1px 1px 20px 13px white;
+	transition: all 0.2s ease;
 }
