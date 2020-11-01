@@ -138,7 +138,7 @@ a:hover{
     /* left: 50%; */
     top: 4vw;
     /* transform: translate(-50%,36vh); */
-    font-size: 3vw;
+    font-size: 2000%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     text-align: center;
@@ -171,7 +171,7 @@ a:hover{
 .footer{
 
     display: block;
-    font-size: 1.5vw;
+    font-size: 2000%;
     text-align: center;
     background-color: white;
     height: 1250%;
